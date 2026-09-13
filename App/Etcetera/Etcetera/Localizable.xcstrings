@@ -1,0 +1,3459 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "\"%@\" already exists." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ ist bereits vorhanden."
+          }
+        }
+      }
+    },
+    "%@ Mappings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Zuordnungen"
+          }
+        }
+      }
+    },
+    "%@ cannot be used: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ kann nicht verwendet werden: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ cannot be used: %2$@"
+          }
+        }
+      }
+    },
+    "%@ could not be read: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ konnte nicht gelesen werden: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ could not be read: %2$@"
+          }
+        }
+      }
+    },
+    "%@ does not exist." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist nicht vorhanden."
+          }
+        }
+      }
+    },
+    "%@ is too large to be an etcetera export." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist zu groß für einen etcetera-Export."
+          }
+        }
+      }
+    },
+    "%lld / %lld bytes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld / %2$#@bytes@"
+          },
+          "substitutions" : {
+            "bytes" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg Byte"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg Bytes"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld / %2$#@bytes@"
+          },
+          "substitutions" : {
+            "bytes" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg byte"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg bytes"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld Keys Were Not Exported" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Schlüssel wurde nicht exportiert"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Schlüssel wurden nicht exportiert"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Key Was Not Exported"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Keys Were Not Exported"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld bytes" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Byte"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Bytes"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld byte"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld bytes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld files left out" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Datei ausgelassen"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Dateien ausgelassen"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld file left out"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld files left out"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld keys loaded" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Schlüssel geladen"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Schlüssel geladen"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld key loaded"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld keys loaded"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld mappings" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Zuordnung"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Zuordnungen"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld mapping"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld mappings"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld message types. Refresh Schema in the Value menu compiles the schema again." : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Nachrichtentyp. „Schema aktualisieren“ im Menü „Wert“ kompiliert das Schema neu."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Nachrichtentypen. „Schema aktualisieren“ im Menü „Wert“ kompiliert das Schema neu."
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld message type. Refresh Schema in the Value menu compiles the schema again."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld message types. Refresh Schema in the Value menu compiles the schema again."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld s" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld s"
+          }
+        }
+      }
+    },
+    "(%lld bytes)" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "(%lld Byte)"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "(%lld Bytes)"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "(%lld byte)"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "(%lld bytes)"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "(empty)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(leer)"
+          }
+        }
+      }
+    },
+    "A custom protoc must be signed to run inside the app sandbox." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein eigenes protoc muss signiert sein, um in der App-Sandbox zu laufen."
+          }
+        }
+      }
+    },
+    "API prefix" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API-Präfix"
+          }
+        }
+      }
+    },
+    "Add" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinzufügen"
+          }
+        }
+      }
+    },
+    "Add Mapping" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zuordnung hinzufügen"
+          }
+        }
+      }
+    },
+    "Add mappings from an export or a connection file" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zuordnungen aus einem Export oder einer Verbindungsdatei hinzufügen"
+          }
+        }
+      }
+    },
+    "Add these mappings; one with the same pattern replaces the current one" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Zuordnungen hinzufügen; eine mit gleichem Muster ersetzt die bisherige"
+          }
+        }
+      }
+    },
+    "Add this connection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Verbindung hinzufügen"
+          }
+        }
+      }
+    },
+    "All Keys" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Schlüssel"
+          }
+        }
+      }
+    },
+    "All keys containing \"%@\"" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Schlüssel, die „%@“ enthalten"
+          }
+        }
+      }
+    },
+    "Anyone between you and the cluster can read and change the data. The window shows a warning while connected." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeder zwischen dir und dem Cluster kann die Daten lesen und ändern. Das Fenster zeigt eine Warnung, solange die Verbindung besteht."
+          }
+        }
+      }
+    },
+    "As %@ Files..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als %@-Dateien..."
+          }
+        }
+      }
+    },
+    "As %@..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als %@..."
+          }
+        }
+      }
+    },
+    "Authentication" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authentifizierung"
+          }
+        }
+      }
+    },
+    "Bundled" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitgeliefert"
+          }
+        }
+      }
+    },
+    "CA certificate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CA-Zertifikat"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        }
+      }
+    },
+    "Cannot Decode" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht dekodierbar"
+          }
+        }
+      }
+    },
+    "Certificate verification off" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zertifikatsprüfung aus"
+          }
+        }
+      }
+    },
+    "Changed since your last session" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seit deiner letzten Sitzung geändert"
+          }
+        }
+      }
+    },
+    "Choose a connection and connect to browse the keyspace." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle eine Verbindung und verbinde dich, um den Schlüsselraum zu durchsuchen."
+          }
+        }
+      }
+    },
+    "Choose a protoc executable" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein protoc-Programm auswählen"
+          }
+        }
+      }
+    },
+    "Choose a protoc. Schemas cannot compile until you do." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle ein protoc. Bis dahin können keine Schemas kompiliert werden."
+          }
+        }
+      }
+    },
+    "Choose or manage connections" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindungen auswählen oder verwalten"
+          }
+        }
+      }
+    },
+    "Choose the CA certificate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das CA-Zertifikat auswählen"
+          }
+        }
+      }
+    },
+    "Choose the client certificate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Client-Zertifikat auswählen"
+          }
+        }
+      }
+    },
+    "Choose the proto folder" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den Proto-Ordner auswählen"
+          }
+        }
+      }
+    },
+    "Choose which keys decode as which protobuf message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Festlegen, welche Schlüssel als welche Protobuf-Nachricht dekodiert werden"
+          }
+        }
+      }
+    },
+    "Choose..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auswählen..."
+          }
+        }
+      }
+    },
+    "Clear" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entfernen"
+          }
+        }
+      }
+    },
+    "Client certificate (PKCS#12)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Client-Zertifikat (PKCS#12)"
+          }
+        }
+      }
+    },
+    "Close Tab" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tab schließen"
+          }
+        }
+      }
+    },
+    "Close without saving?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohne Sichern schließen?"
+          }
+        }
+      }
+    },
+    "Compare with current" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit aktuellem Wert vergleichen"
+          }
+        }
+      }
+    },
+    "Compile the changed schema files" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die geänderten Schema-Dateien kompilieren"
+          }
+        }
+      }
+    },
+    "Compile the schema again" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Schema erneut kompilieren"
+          }
+        }
+      }
+    },
+    "Compiling schema..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schema wird kompiliert..."
+          }
+        }
+      }
+    },
+    "Connect" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinden"
+          }
+        }
+      }
+    },
+    "Connect automatically when etcetera starts" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim Start von etcetera automatisch verbinden"
+          }
+        }
+      }
+    },
+    "Connect to the chosen connection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit der gewählten Verbindung verbinden"
+          }
+        }
+      }
+    },
+    "Connect to the last used connection at launch" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim Start mit der zuletzt verwendeten Verbindung verbinden"
+          }
+        }
+      }
+    },
+    "Connect with this profile to complete message names and test mappings." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinde dich mit diesem Profil, um Nachrichtennamen zu vervollständigen und Zuordnungen zu testen."
+          }
+        }
+      }
+    },
+    "Connecting..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung wird hergestellt..."
+          }
+        }
+      }
+    },
+    "Connection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung"
+          }
+        }
+      }
+    },
+    "Connections" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindungen"
+          }
+        }
+      }
+    },
+    "Copied" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiert"
+          }
+        }
+      }
+    },
+    "Copy" : {
+      "comment" : "Context menu submenu title",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopieren"
+          }
+        }
+      }
+    },
+    "Copy or save these mappings as JSON" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Zuordnungen als JSON kopieren oder sichern"
+          }
+        }
+      }
+    },
+    "Copy the connection as JSON" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Verbindung als JSON kopieren"
+          }
+        }
+      }
+    },
+    "Copy the mappings as JSON" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Zuordnungen als JSON kopieren"
+          }
+        }
+      }
+    },
+    "Copy the value and lease to the new key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wert und Lease in den neuen Schlüssel kopieren"
+          }
+        }
+      }
+    },
+    "Copy the value as shown" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den Wert wie angezeigt kopieren"
+          }
+        }
+      }
+    },
+    "Copy to Clipboard" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In die Zwischenablage kopieren"
+          }
+        }
+      }
+    },
+    "Could Not Copy the Value" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wert konnte nicht kopiert werden"
+          }
+        }
+      }
+    },
+    "Could Not Delete the Connection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung konnte nicht gelöscht werden"
+          }
+        }
+      }
+    },
+    "Create" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstellen"
+          }
+        }
+      }
+    },
+    "Create a key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einen Schlüssel erstellen"
+          }
+        }
+      }
+    },
+    "Create revision" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erstellungsrevision"
+          }
+        }
+      }
+    },
+    "Create the key; an existing key is not replaced" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den Schlüssel erstellen; ein vorhandener Schlüssel wird nicht ersetzt"
+          }
+        }
+      }
+    },
+    "Custom" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eigenes"
+          }
+        }
+      }
+    },
+    "Custom protoc" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eigenes protoc"
+          }
+        }
+      }
+    },
+    "Decode the values of matching keys as a protobuf message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Werte passender Schlüssel als Protobuf-Nachricht dekodieren"
+          }
+        }
+      }
+    },
+    "Delete %@?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ löschen?"
+          }
+        }
+      }
+    },
+    "Delete %lld Keys" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Schlüssel löschen"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Schlüssel löschen"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Delete %lld Key"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Delete %lld Keys"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Delete %lld keys?" : {
+      "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Schlüssel löschen?"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Schlüssel löschen?"
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Delete %lld key?"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Delete %lld keys?"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Delete Connection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung löschen"
+          }
+        }
+      }
+    },
+    "Delete Connection..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung löschen..."
+          }
+        }
+      }
+    },
+    "Delete Failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löschen fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "Delete Key..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel löschen..."
+          }
+        }
+      }
+    },
+    "Delete Subtree..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teilbaum löschen..."
+          }
+        }
+      }
+    },
+    "Delete this connection?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Verbindung löschen?"
+          }
+        }
+      }
+    },
+    "Detect automatically" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisch erkennen"
+          }
+        }
+      }
+    },
+    "Discard Edits" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Änderungen verwerfen"
+          }
+        }
+      }
+    },
+    "Discard My Edits" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meine Änderungen verwerfen"
+          }
+        }
+      }
+    },
+    "Discard unsaved edits?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungesicherte Änderungen verwerfen?"
+          }
+        }
+      }
+    },
+    "Disconnect" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trennen"
+          }
+        }
+      }
+    },
+    "Disconnect from the cluster" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vom Cluster trennen"
+          }
+        }
+      }
+    },
+    "Dismiss" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        }
+      }
+    },
+    "Does not match %@: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passt nicht zu %1$@: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Does not match %1$@: %2$@"
+          }
+        }
+      }
+    },
+    "Does not match the message: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passt nicht zur Nachricht: %@"
+          }
+        }
+      }
+    },
+    "Don't Save" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht sichern"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
+          }
+        }
+      }
+    },
+    "Drop an exported connection file here" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine exportierte Verbindungsdatei hier ablegen"
+          }
+        }
+      }
+    },
+    "Drop exported mappings or a connection file here" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportierte Zuordnungen oder eine Verbindungsdatei hier ablegen"
+          }
+        }
+      }
+    },
+    "Drop your edits and show the value now stored" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Änderungen verwerfen und den jetzt gespeicherten Wert anzeigen"
+          }
+        }
+      }
+    },
+    "Duplicate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duplizieren"
+          }
+        }
+      }
+    },
+    "Duplicate Key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel duplizieren"
+          }
+        }
+      }
+    },
+    "Duplicate Key..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel duplizieren..."
+          }
+        }
+      }
+    },
+    "Edit Connection..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung bearbeiten..."
+          }
+        }
+      }
+    },
+    "Edit Mappings..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zuordnungen bearbeiten..."
+          }
+        }
+      }
+    },
+    "Edit the whole value, which can be slow for large values" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den ganzen Wert bearbeiten, was bei großen Werten langsam sein kann"
+          }
+        }
+      }
+    },
+    "Edited" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bearbeitet"
+          }
+        }
+      }
+    },
+    "Encoded" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kodiert"
+          }
+        }
+      }
+    },
+    "Endpoint" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Endpunkt"
+          }
+        }
+      }
+    },
+    "Enter a key to see which mapping it uses and how its value decodes." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gib einen Schlüssel ein, um zu sehen, welche Zuordnung er verwendet und wie sein Wert dekodiert wird."
+          }
+        }
+      }
+    },
+    "Every key attached to it is deleted. This cannot be undone." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle daran gebundenen Schlüssel werden gelöscht. Dies kann nicht widerrufen werden."
+          }
+        }
+      }
+    },
+    "Export" : {
+      "comment" : "Context menu submenu title",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportieren"
+          }
+        }
+      }
+    },
+    "Export %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ exportieren"
+          }
+        }
+      }
+    },
+    "Export Connection..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung exportieren..."
+          }
+        }
+      }
+    },
+    "Export Failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "Export Mappings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zuordnungen exportieren"
+          }
+        }
+      }
+    },
+    "Export..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportieren..."
+          }
+        }
+      }
+    },
+    "Folder" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordner"
+          }
+        }
+      }
+    },
+    "Format" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Format"
+          }
+        }
+      }
+    },
+    "Format JSON" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSON formatieren"
+          }
+        }
+      }
+    },
+    "Formatting" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formatierung"
+          }
+        }
+      }
+    },
+    "Granted" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gewährt"
+          }
+        }
+      }
+    },
+    "Have a PEM key pair? Convert it first:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast ein PEM-Schlüsselpaar? Konvertiere es zuerst:"
+          }
+        }
+      }
+    },
+    "Hide this notice" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diesen Hinweis ausblenden"
+          }
+        }
+      }
+    },
+    "History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf"
+          }
+        }
+      }
+    },
+    "How the value is shown" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie der Wert angezeigt wird"
+          }
+        }
+      }
+    },
+    "ID" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ID"
+          }
+        }
+      }
+    },
+    "Import" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importieren"
+          }
+        }
+      }
+    },
+    "Import Connection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung importieren"
+          }
+        }
+      }
+    },
+    "Import Connection..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbindung importieren..."
+          }
+        }
+      }
+    },
+    "Import Mappings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zuordnungen importieren"
+          }
+        }
+      }
+    },
+    "Import..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importieren..."
+          }
+        }
+      }
+    },
+    "In etcd now" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt in etcd"
+          }
+        }
+      }
+    },
+    "Inspector and history" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informationen und Verlauf"
+          }
+        }
+      }
+    },
+    "It is written as a new value, and refused if someone changed the key meanwhile." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sie wird als neuer Wert geschrieben und abgelehnt, falls jemand den Schlüssel inzwischen geändert hat."
+          }
+        }
+      }
+    },
+    "Its saved password and passphrase are removed from the Keychain too." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das gesicherte Passwort und die Passphrase werden auch aus dem Schlüsselbund entfernt."
+          }
+        }
+      }
+    },
+    "Keep the tree current through a watch. Turn off for large or busy clusters." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den Baum über einen Watch aktuell halten. Bei großen oder stark genutzten Clustern ausschalten."
+          }
+        }
+      }
+    },
+    "Keep these mappings; saving the connection stores them" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Zuordnungen übernehmen; beim Sichern der Verbindung werden sie gespeichert"
+          }
+        }
+      }
+    },
+    "Key" : {
+      "comment" : "Copy menu item: the key's last segment",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel"
+          }
+        }
+      }
+    },
+    "Key Not Found" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel nicht gefunden"
+          }
+        }
+      }
+    },
+    "Key separator" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüsseltrenner"
+          }
+        }
+      }
+    },
+    "Keychain error %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüsselbundfehler %@"
+          }
+        }
+      }
+    },
+    "Keys" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel"
+          }
+        }
+      }
+    },
+    "Keys here hold %@ messages. The value is saved as you enter it and checked against the message." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel hier enthalten %@-Nachrichten. Der Wert wird so gesichert, wie du ihn eingibst, und mit der Nachricht abgeglichen."
+          }
+        }
+      }
+    },
+    "Keys starting with \"%@\"" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel, die mit „%@“ beginnen"
+          }
+        }
+      }
+    },
+    "Lease" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lease"
+          }
+        }
+      }
+    },
+    "Leases" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leases"
+          }
+        }
+      }
+    },
+    "Leases and their keys" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leases und ihre Schlüssel"
+          }
+        }
+      }
+    },
+    "Live updates" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live-Aktualisierung"
+          }
+        }
+      }
+    },
+    "Load Failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "Load Into Editor" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In den Editor laden"
+          }
+        }
+      }
+    },
+    "Load the leases again" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Leases erneut laden"
+          }
+        }
+      }
+    },
+    "Mappings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zuordnungen"
+          }
+        }
+      }
+    },
+    "Match" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abgleich"
+          }
+        }
+      }
+    },
+    "Match every key starting with the pattern, or only the exact key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeden Schlüssel abgleichen, der mit dem Muster beginnt, oder nur den exakten Schlüssel"
+          }
+        }
+      }
+    },
+    "Matches" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treffer"
+          }
+        }
+      }
+    },
+    "Merge" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zusammenführen"
+          }
+        }
+      }
+    },
+    "Message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nachricht"
+          }
+        }
+      }
+    },
+    "Message types in the schema" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nachrichtentypen im Schema"
+          }
+        }
+      }
+    },
+    "Minify JSON" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSON minimieren"
+          }
+        }
+      }
+    },
+    "Mod" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mod"
+          }
+        }
+      }
+    },
+    "Mod revision" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Änderungsrevision"
+          }
+        }
+      }
+    },
+    "Move the value and lease to the new key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wert und Lease in den neuen Schlüssel verschieben"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "Name field" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namensfeld"
+          }
+        }
+      }
+    },
+    "New Connection..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Verbindung..."
+          }
+        }
+      }
+    },
+    "New Key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuer Schlüssel"
+          }
+        }
+      }
+    },
+    "New key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuer Schlüssel"
+          }
+        }
+      }
+    },
+    "No Connections" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Verbindungen"
+          }
+        }
+      }
+    },
+    "No Key Selected" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein Schlüssel ausgewählt"
+          }
+        }
+      }
+    },
+    "No Keys" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Schlüssel"
+          }
+        }
+      }
+    },
+    "No Matches" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Treffer"
+          }
+        }
+      }
+    },
+    "No Selection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Auswahl"
+          }
+        }
+      }
+    },
+    "No key or name contains \"%@\"." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein Schlüssel und kein Name enthält „%@“."
+          }
+        }
+      }
+    },
+    "No mapping matches this key, so its value shows with the format guess." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Zuordnung passt zu diesem Schlüssel, daher wird sein Wert mit dem erkannten Format angezeigt."
+          }
+        }
+      }
+    },
+    "No mappings yet. Add one to decode matching keys as a protobuf message." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine Zuordnungen. Füge eine hinzu, um passende Schlüssel als Protobuf-Nachricht zu dekodieren."
+          }
+        }
+      }
+    },
+    "None" : {
+      "comment" : "No file chosen",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine"
+          }
+        }
+      }
+    },
+    "None chosen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keines ausgewählt"
+          }
+        }
+      }
+    },
+    "Not Connected" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht verbunden"
+          }
+        }
+      }
+    },
+    "Not a valid %@: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein gültiges %1$@: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Not a valid %1$@: %2$@"
+          }
+        }
+      }
+    },
+    "Not a valid message: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine gültige Nachricht: %@"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "Older versions were compacted away." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ältere Versionen wurden durch Kompaktierung entfernt."
+          }
+        }
+      }
+    },
+    "Only this key is duplicated. The keys below it are not copied." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur dieser Schlüssel wird dupliziert. Die Schlüssel darunter werden nicht kopiert."
+          }
+        }
+      }
+    },
+    "Only this key is renamed. The keys below it keep their names." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur dieser Schlüssel wird umbenannt. Die Schlüssel darunter behalten ihre Namen."
+          }
+        }
+      }
+    },
+    "Open File..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datei öffnen..."
+          }
+        }
+      }
+    },
+    "Open an exported connection file" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine exportierte Verbindungsdatei öffnen"
+          }
+        }
+      }
+    },
+    "Open both versions in the editor with conflict markers" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beide Versionen mit Konfliktmarkierungen im Editor öffnen"
+          }
+        }
+      }
+    },
+    "Open exported mappings or a connection file" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportierte Zuordnungen oder eine Verbindungsdatei öffnen"
+          }
+        }
+      }
+    },
+    "Open tabs have edits that are not saved. Switching the connection drops them." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Offene Tabs enthalten ungesicherte Änderungen. Beim Wechsel der Verbindung gehen sie verloren."
+          }
+        }
+      }
+    },
+    "Optional: a field of the value, such as name or info.name, whose text labels the key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optional: ein Feld des Werts, etwa name oder info.name, dessen Text den Schlüssel benennt"
+          }
+        }
+      }
+    },
+    "Overwrite" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überschreiben"
+          }
+        }
+      }
+    },
+    "Overwriting replaces its current value." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim Überschreiben wird der aktuelle Wert ersetzt."
+          }
+        }
+      }
+    },
+    "PKCS#12 passphrase" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PKCS#12-Passphrase"
+          }
+        }
+      }
+    },
+    "Password" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passwort"
+          }
+        }
+      }
+    },
+    "Paste an exported connection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine exportierte Verbindung einsetzen"
+          }
+        }
+      }
+    },
+    "Paste exported mappings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportierte Zuordnungen einsetzen"
+          }
+        }
+      }
+    },
+    "Paste from Clipboard" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus Zwischenablage einsetzen"
+          }
+        }
+      }
+    },
+    "Pattern" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muster"
+          }
+        }
+      }
+    },
+    "Pick these files again with Edit Connection, then enter any passwords:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle diese Dateien unter „Verbindung bearbeiten“ erneut aus und gib dann die Passwörter ein:"
+          }
+        }
+      }
+    },
+    "Prefix" : {
+      "comment" : "Copy menu item: the key's prefix",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Präfix"
+          }
+        }
+      }
+    },
+    "Prefix + Key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Präfix + Schlüssel"
+          }
+        }
+      }
+    },
+    "Proto folder" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proto-Ordner"
+          }
+        }
+      }
+    },
+    "Protobuf" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protobuf"
+          }
+        }
+      }
+    },
+    "Protobuf Schema" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protobuf-Schema"
+          }
+        }
+      }
+    },
+    "Reading values..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Werte werden gelesen..."
+          }
+        }
+      }
+    },
+    "Recompile" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neu kompilieren"
+          }
+        }
+      }
+    },
+    "Refresh" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisieren"
+          }
+        }
+      }
+    },
+    "Refresh Schema" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schema aktualisieren"
+          }
+        }
+      }
+    },
+    "Remaining" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbleibend"
+          }
+        }
+      }
+    },
+    "Remove this mapping" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Zuordnung entfernen"
+          }
+        }
+      }
+    },
+    "Rename" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umbenennen"
+          }
+        }
+      }
+    },
+    "Rename Key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel umbenennen"
+          }
+        }
+      }
+    },
+    "Rename Key..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel umbenennen..."
+          }
+        }
+      }
+    },
+    "Replace All" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle ersetzen"
+          }
+        }
+      }
+    },
+    "Reset Column Widths" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spaltenbreiten zurücksetzen"
+          }
+        }
+      }
+    },
+    "Restore" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wiederherstellen"
+          }
+        }
+      }
+    },
+    "Restore This Version..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Version wiederherstellen..."
+          }
+        }
+      }
+    },
+    "Restore revision %@?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revision %@ wiederherstellen?"
+          }
+        }
+      }
+    },
+    "Retry" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut versuchen"
+          }
+        }
+      }
+    },
+    "Revision %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revision %@"
+          }
+        }
+      }
+    },
+    "Revision %@ was written after you loaded revision %@." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revision %1$@ wurde geschrieben, nachdem du Revision %2$@ geladen hast."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Revision %1$@ was written after you loaded revision %2$@."
+          }
+        }
+      }
+    },
+    "Revision %@, current" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revision %@, aktuell"
+          }
+        }
+      }
+    },
+    "Revoke Lease" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lease widerrufen"
+          }
+        }
+      }
+    },
+    "Revoke lease %@?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lease %@ widerrufen?"
+          }
+        }
+      }
+    },
+    "Revoke the lease, which deletes its keys" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Lease widerrufen, wodurch ihre Schlüssel gelöscht werden"
+          }
+        }
+      }
+    },
+    "Revoke..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widerrufen..."
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sichern"
+          }
+        }
+      }
+    },
+    "Save or discard your edits first" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sichere oder verwirf zuerst deine Änderungen"
+          }
+        }
+      }
+    },
+    "Save the connection as a JSON file" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Verbindung als JSON-Datei sichern"
+          }
+        }
+      }
+    },
+    "Save the connection; secrets go to the Keychain" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Verbindung sichern; Geheimnisse kommen in den Schlüsselbund"
+          }
+        }
+      }
+    },
+    "Save the mappings as a JSON file" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Zuordnungen als JSON-Datei sichern"
+          }
+        }
+      }
+    },
+    "Save your edits over the value now stored" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Änderungen über den jetzt gespeicherten Wert sichern"
+          }
+        }
+      }
+    },
+    "Save..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sichern..."
+          }
+        }
+      }
+    },
+    "Saved" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesichert"
+          }
+        }
+      }
+    },
+    "Saved in Keychain" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im Schlüsselbund gesichert"
+          }
+        }
+      }
+    },
+    "Scan the server for every key with this prefix" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den Server nach allen Schlüsseln mit diesem Präfix durchsuchen"
+          }
+        }
+      }
+    },
+    "Schema files changed." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schema-Dateien wurden geändert."
+          }
+        }
+      }
+    },
+    "Schema mapping problem: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Problem mit der Schema-Zuordnung: %@"
+          }
+        }
+      }
+    },
+    "Schemas compile with the protoc bundled with etcetera." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schemas werden mit dem in etcetera enthaltenen protoc kompiliert."
+          }
+        }
+      }
+    },
+    "Search keys and names" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel und Namen suchen"
+          }
+        }
+      }
+    },
+    "Select a key to open it in a tab." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle einen Schlüssel, um ihn in einem Tab zu öffnen."
+          }
+        }
+      }
+    },
+    "Select a node in the key tree." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle einen Knoten im Schlüsselbaum."
+          }
+        }
+      }
+    },
+    "Server certificate verification is off for this connection." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Prüfung des Serverzertifikats ist für diese Verbindung ausgeschaltet."
+          }
+        }
+      }
+    },
+    "Server certificate verification is off." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Prüfung des Serverzertifikats ist ausgeschaltet."
+          }
+        }
+      }
+    },
+    "Show Hex" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hex anzeigen"
+          }
+        }
+      }
+    },
+    "Show Next Tab" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nächsten Tab anzeigen"
+          }
+        }
+      }
+    },
+    "Show Previous Tab" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vorherigen Tab anzeigen"
+          }
+        }
+      }
+    },
+    "Show every match in the table" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Treffer in der Tabelle zeigen"
+          }
+        }
+      }
+    },
+    "Show how this version differs from the current value" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeigen, wie sich diese Version vom aktuellen Wert unterscheidet"
+          }
+        }
+      }
+    },
+    "Show the stored bytes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die gespeicherten Bytes anzeigen"
+          }
+        }
+      }
+    },
+    "Show which mapping the key uses and decode its value with it" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeigen, welche Zuordnung der Schlüssel verwendet, und seinen Wert damit dekodieren"
+          }
+        }
+      }
+    },
+    "Showing the first %lld of %lld matches." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die ersten %lld von %lld Treffern."
+          }
+        }
+      }
+    },
+    "Size" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Größe"
+          }
+        }
+      }
+    },
+    "Size \"%@\" to Fit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Breite von „%@“ anpassen"
+          }
+        }
+      }
+    },
+    "Size All Columns to Fit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Breite aller Spalten anpassen"
+          }
+        }
+      }
+    },
+    "Size Column to Fit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spaltenbreite anpassen"
+          }
+        }
+      }
+    },
+    "Skip server certificate verification" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prüfung des Serverzertifikats überspringen"
+          }
+        }
+      }
+    },
+    "Soft Wrap" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeilenumbruch"
+          }
+        }
+      }
+    },
+    "Start over with another connection" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit einer anderen Verbindung neu beginnen"
+          }
+        }
+      }
+    },
+    "Start over with other mappings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit anderen Zuordnungen neu beginnen"
+          }
+        }
+      }
+    },
+    "Stop using this CA certificate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses CA-Zertifikat nicht mehr verwenden"
+          }
+        }
+      }
+    },
+    "Stop using this client certificate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Client-Zertifikat nicht mehr verwenden"
+          }
+        }
+      }
+    },
+    "Stop using this proto folder" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diesen Proto-Ordner nicht mehr verwenden"
+          }
+        }
+      }
+    },
+    "Stored length, and the length after re-encoding the unchanged message" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeicherte Länge und die Länge nach erneutem Kodieren der unveränderten Nachricht"
+          }
+        }
+      }
+    },
+    "TLS" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TLS"
+          }
+        }
+      }
+    },
+    "Test" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Testen"
+          }
+        }
+      }
+    },
+    "The custom protoc chosen in Settings cannot be opened. Choose it again, or switch to the bundled protoc." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das in den Einstellungen gewählte eigene protoc kann nicht geöffnet werden. Wähle es erneut aus oder wechsle zum mitgelieferten protoc."
+          }
+        }
+      }
+    },
+    "The gateway path etcd serves its API under; older versions use /v3beta or /v3alpha" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Gateway-Pfad, unter dem etcd seine API bereitstellt; ältere Versionen verwenden /v3beta oder /v3alpha"
+          }
+        }
+      }
+    },
+    "The key was deleted after you loaded revision %@. Overwrite recreates it." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Schlüssel wurde gelöscht, nachdem du Revision %@ geladen hast. Überschreiben erstellt ihn neu."
+          }
+        }
+      }
+    },
+    "The password, passphrase and access to certificate and schema files are not included. After an import, enter the password and pick the files again." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passwort, Passphrase und der Zugriff auf Zertifikats- und Schema-Dateien sind nicht enthalten. Gib nach einem Import das Passwort ein und wähle die Dateien erneut aus."
+          }
+        }
+      }
+    },
+    "The schema did not compile" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Schema ließ sich nicht kompilieren"
+          }
+        }
+      }
+    },
+    "The value is checked against this message and saved as typed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Wert wird mit dieser Nachricht abgeglichen und wie eingegeben gesichert"
+          }
+        }
+      }
+    },
+    "The value is saved as typed; this is only a warning" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Wert wird wie eingegeben gesichert; dies ist nur eine Warnung"
+          }
+        }
+      }
+    },
+    "Their values are too large to read through the etcd gateway." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihre Werte sind zu groß, um sie über das etcd-Gateway zu lesen."
+          }
+        }
+      }
+    },
+    "There are no keys under this prefix." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unter diesem Präfix gibt es keine Schlüssel."
+          }
+        }
+      }
+    },
+    "This cannot be undone." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dies kann nicht widerrufen werden."
+          }
+        }
+      }
+    },
+    "This deletes %@ and every key under %@. It cannot be undone." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dadurch werden %1$@ und alle Schlüssel unter %2$@ gelöscht. Dies kann nicht widerrufen werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "This deletes %1$@ and every key under %2$@. It cannot be undone."
+          }
+        }
+      }
+    },
+    "This deletes every key under %@. It cannot be undone." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dadurch werden alle Schlüssel unter %@ gelöscht. Dies kann nicht widerrufen werden."
+          }
+        }
+      }
+    },
+    "This key changed since you loaded it" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Schlüssel wurde geändert, seit du ihn geladen hast"
+          }
+        }
+      }
+    },
+    "This value changed since your last session." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Wert wurde seit deiner letzten Sitzung geändert."
+          }
+        }
+      }
+    },
+    "This value is %@ and opened read-only." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Wert ist %@ groß und wurde schreibgeschützt geöffnet."
+          }
+        }
+      }
+    },
+    "Too large to fetch through the etcd gateway" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu groß, um über das etcd-Gateway abgerufen zu werden"
+          }
+        }
+      }
+    },
+    "Try each connection step with these settings, without saving" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeden Verbindungsschritt mit diesen Einstellungen testen, ohne zu sichern"
+          }
+        }
+      }
+    },
+    "Use these mappings instead of the current ones" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Zuordnungen statt der bisherigen verwenden"
+          }
+        }
+      }
+    },
+    "Username" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benutzername"
+          }
+        }
+      }
+    },
+    "Uses" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwendet"
+          }
+        }
+      }
+    },
+    "Value" : {
+      "comment" : "Copy menu item: the key's value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wert"
+          }
+        }
+      }
+    },
+    "Verbose Logging for This Session" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausführliche Protokollierung für diese Sitzung"
+          }
+        }
+      }
+    },
+    "Verbose logging on" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausführliche Protokollierung an"
+          }
+        }
+      }
+    },
+    "Version" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        }
+      }
+    },
+    "Version %lld, %lld bytes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %1$lld, %2$#@bytes@"
+          },
+          "substitutions" : {
+            "bytes" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg Byte"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg Bytes"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %1$lld, %2$#@bytes@"
+          },
+          "substitutions" : {
+            "bytes" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg byte"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg bytes"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Which protoc compiles connection schemas" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welches protoc die Verbindungsschemas kompiliert"
+          }
+        }
+      }
+    },
+    "Write this version as the current value" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Version als aktuellen Wert schreiben"
+          }
+        }
+      }
+    },
+    "Write your edits to etcd" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Änderungen in etcd schreiben"
+          }
+        }
+      }
+    },
+    "Your edits" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Änderungen"
+          }
+        }
+      }
+    },
+    "Your edits to this value will be lost." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Änderungen an diesem Wert gehen verloren."
+          }
+        }
+      }
+    },
+    "etcd %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "etcd %@"
+          }
+        }
+      }
+    },
+    "expired" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "abgelaufen"
+          }
+        }
+      }
+    },
+    "named by %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "benannt nach %@"
+          }
+        }
+      }
+    },
+    "none" : {
+      "comment" : "No keys attached to a lease\nNo lease on the key",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "keine"
+          }
+        }
+      }
+    },
+    "or paste its contents from the clipboard." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oder ihren Inhalt aus der Zwischenablage einsetzen."
+          }
+        }
+      }
+    },
+    "protoc" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "protoc"
+          }
+        }
+      }
+    },
+    "protoc rejected these files or files they import, so their types are not available" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "protoc hat diese Dateien oder von ihnen importierte Dateien abgelehnt, daher sind ihre Typen nicht verfügbar"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "root",
+  "inner": {"name": "a", "child": {"name": "b", "child": {"name": "c"}}},
+  "items": [{"name": "x"}, {}, {"name": "z"}]
+}

@@ -1,0 +1,5 @@
+# proto-message: fixtures.v1.Legacy
+a: 0
+b: 1
+b: 2
+c: "req"

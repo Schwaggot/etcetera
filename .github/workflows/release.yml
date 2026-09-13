@@ -1,0 +1,92 @@
+# Builds an arm64 disk image of the app and publishes it as a GitHub Release
+# when a version tag such as 1.0.0 is pushed. The tag must match the newest
+# version in CHANGELOG.md, whose section becomes the release notes. Run it by
+# hand from the Actions tab to get the disk image as an artifact without a
+# release.
+name: Release
+
+on:
+  push:
+    tags: ['[0-9]+.[0-9]+.[0-9]+*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: macos-26
+    env:
+      APP: build/DerivedData/Build/Products/Release/Etcetera.app
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Show the toolchain
+        run: |
+          xcodebuild -version
+          swift --version
+
+      - name: Check the version
+        run: |
+          VERSION="$(Tools/version.sh)"
+          if [ "$GITHUB_REF_TYPE" = tag ] && [ "$GITHUB_REF_NAME" != "$VERSION" ]; then
+            echo "::error::Tag $GITHUB_REF_NAME does not match $VERSION, the newest version in CHANGELOG.md"
+            exit 1
+          fi
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+          echo "DMG=build/Etcetera-$VERSION-arm64.dmg" >> "$GITHUB_ENV"
+
+      - name: Fetch protoc
+        run: Tools/protoc/fetch-protoc.sh
+
+      - name: Test
+        run: swift test
+
+      - name: Build the app
+        run: |
+          xcodebuild build \
+            -project App/Etcetera/Etcetera.xcodeproj \
+            -scheme Etcetera \
+            -configuration Release \
+            -destination 'generic/platform=macOS' \
+            -derivedDataPath build/DerivedData \
+            ARCHS=arm64
+          codesign --verify --strict --verbose=2 "$APP"
+
+      - name: Make the disk image
+        run: Tools/make-dmg.sh "$APP" "$DMG"
+
+      - name: Keep the disk image
+        if: github.ref_type != 'tag'
+        uses: actions/upload-artifact@v5
+        with:
+          name: Etcetera-${{ env.VERSION }}-arm64
+          path: ${{ env.DMG }}
+
+      - name: Publish the release
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          awk -v heading="## [$VERSION]" '
+            index($0, heading) == 1 { found = 1; next }
+            found && /^## \[/ { exit }
+            found { print }
+          ' CHANGELOG.md > build/notes.md
+          cat >> build/notes.md <<'EOF'
+
+          ### Installing
+
+          Requires macOS 26 on Apple silicon. Open the disk image and drag
+          Etcetera to Applications. The app is not notarized, so macOS blocks it
+          the first time: try to open it once, then choose Open Anyway in
+          System Settings > Privacy & Security.
+          EOF
+          PRERELEASE=""
+          case "$VERSION" in *-*) PRERELEASE="--prerelease" ;; esac
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" "$DMG" --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" "$DMG" --verify-tag $PRERELEASE \
+              --title "etcetera $VERSION" --notes-file build/notes.md
+          fi

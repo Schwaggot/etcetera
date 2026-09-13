@@ -60,3 +60,49 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Local state
+.swiftpm/
+
+# Downloaded by Tools/protoc/fetch-protoc.sh, verified by checksum
+Tools/protoc/bin/
+
+# Sub-agent and alternate build folders
+.build-*/
+
+# macOS
+.DS_Store
+
+# Build output: Xcode builds and test results, archives, and disk images from
+# Tools/make-dmg.sh; the Release workflow builds into build/ as well
+build/
+DerivedData/
+*.xcresult
+*.xcarchive
+*.dmg
+
+# Python caches from Design/icon/build_icon_poppins.py
+__pycache__/
+*.pyc
+
+# Local TLS material for trying connections; tests make their own at runtime
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+
+# Local etcd data directories from trying servers
+*.etcd/
+
+# Local secrets and coverage output
+.env
+.env.*
+*.profraw
+*.profdata
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~

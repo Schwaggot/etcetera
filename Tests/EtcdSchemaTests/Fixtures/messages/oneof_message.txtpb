@@ -1,0 +1,2 @@
+# proto-message: fixtures.v1.Oneofs
+inner { name: "picked" }

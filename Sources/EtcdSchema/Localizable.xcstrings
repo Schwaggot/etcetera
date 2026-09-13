@@ -1,0 +1,834 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ has number %lld, outside 1 to 536870911" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ hat die Nummer %2$lld, außerhalb von 1 bis 536870911"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ has number %2$lld, outside 1 to 536870911"
+          }
+        }
+      }
+    },
+    "%@ is not a duration like \"1.5s\"" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist keine Dauer wie \"1.5s\""
+          }
+        }
+      }
+    },
+    "%@ is not a number" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist keine Zahl"
+          }
+        }
+      }
+    },
+    "%@ is not a value of %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ ist kein Wert von %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ is not a value of %2$@"
+          }
+        }
+      }
+    },
+    "%@ is not a value of the enum" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist kein Wert der Aufzählung"
+          }
+        }
+      }
+    },
+    "%@ is not an RFC 3339 timestamp" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist kein RFC-3339-Zeitstempel"
+          }
+        }
+      }
+    },
+    "%@ is not an integer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist keine Ganzzahl"
+          }
+        }
+      }
+    },
+    "%@ is not an unsigned integer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist keine vorzeichenlose Ganzzahl"
+          }
+        }
+      }
+    },
+    "%@ is not in the schema, so Any needs its raw \"value\" as base64" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist nicht im Schema, daher braucht Any seinen rohen \"value\" als Base64"
+          }
+        }
+      }
+    },
+    "%@ is out of range" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ liegt außerhalb des Wertebereichs"
+          }
+        }
+      }
+    },
+    "%@ is out of range for float" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ liegt außerhalb des Wertebereichs für float"
+          }
+        }
+      }
+    },
+    "%@ names oneof %lld, which is not declared" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ nennt oneof %2$lld, das nicht deklariert ist"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ names oneof %2$lld, which is not declared"
+          }
+        }
+      }
+    },
+    "Any needs an \"@type\" string" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Any braucht einen \"@type\"-String"
+          }
+        }
+      }
+    },
+    "Any of %@ needs exactly a \"value\" field" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Any mit %@ braucht genau ein \"value\"-Feld"
+          }
+        }
+      }
+    },
+    "Duration is out of range or has mixed signs" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duration liegt außerhalb des Wertebereichs oder hat gemischte Vorzeichen"
+          }
+        }
+      }
+    },
+    "Field %@ refers to %@, which is not in the schema." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feld %1$@ verweist auf %2$@, das nicht im Schema ist."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Field %1$@ refers to %2$@, which is not in the schema."
+          }
+        }
+      }
+    },
+    "JSON syntax error at line %lld, column %lld: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSON-Syntaxfehler in Zeile %1$lld, Spalte %2$lld: %3$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "JSON syntax error at line %1$lld, column %2$lld: %3$@"
+          }
+        }
+      }
+    },
+    "The compiled schema could not be read: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das kompilierte Schema konnte nicht gelesen werden: %@"
+          }
+        }
+      }
+    },
+    "The message type %@ is not in the schema." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Nachrichtentyp %@ ist nicht im Schema."
+          }
+        }
+      }
+    },
+    "The schema has not been compiled." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Schema wurde noch nicht kompiliert."
+          }
+        }
+      }
+    },
+    "The value is not a valid %@ at %@: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Wert ist bei %2$@ kein gültiges %1$@: %3$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The value is not a valid %1$@ at %2$@: %3$@"
+          }
+        }
+      }
+    },
+    "The value is not a valid %@: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Wert ist kein gültiges %1$@: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "The value is not a valid %1$@: %2$@"
+          }
+        }
+      }
+    },
+    "There are no .proto files under %@." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unter %@ gibt es keine .proto-Dateien."
+          }
+        }
+      }
+    },
+    "Timestamp is outside 0001-01-01 to 9999-12-31" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timestamp liegt außerhalb von 0001-01-01 bis 9999-12-31"
+          }
+        }
+      }
+    },
+    "a Value number cannot be NaN or infinite" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eine Value-Zahl kann nicht NaN oder unendlich sein"
+          }
+        }
+      }
+    },
+    "a field claims %llu bytes, more than the data holds" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ein Feld beansprucht %llu Bytes, mehr als die Daten enthalten"
+          }
+        }
+      }
+    },
+    "a field has an invalid field number" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ein Feld hat eine ungültige Feldnummer"
+          }
+        }
+      }
+    },
+    "a field uses the unknown wire type %lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ein Feld verwendet den unbekannten Wire-Typ %lld"
+          }
+        }
+      }
+    },
+    "a group ends without having started" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eine Gruppe endet, ohne begonnen zu haben"
+          }
+        }
+      }
+    },
+    "a text field is not valid UTF-8" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ein Textfeld ist kein gültiges UTF-8"
+          }
+        }
+      }
+    },
+    "an integer is encoded with more than 10 bytes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eine Ganzzahl ist mit mehr als 10 Bytes kodiert"
+          }
+        }
+      }
+    },
+    "control character in string" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steuerzeichen im String"
+          }
+        }
+      }
+    },
+    "elements carry fields this schema does not know, and this edit both changes elements and adds or removes others, so they cannot be matched up. Save those two kinds of change separately." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elemente enthalten Felder, die dieses Schema nicht kennt, und diese Änderung ändert Elemente und fügt zugleich andere hinzu oder entfernt sie, sodass sie sich nicht zuordnen lassen. Sichere diese beiden Arten von Änderungen getrennt."
+          }
+        }
+      }
+    },
+    "elements that look the same carry different fields this schema does not know, so it cannot tell which one was removed." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gleich aussehende Elemente enthalten unterschiedliche Felder, die dieses Schema nicht kennt, daher lässt sich nicht feststellen, welches entfernt wurde."
+          }
+        }
+      }
+    },
+    "expected %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ erwartet"
+          }
+        }
+      }
+    },
+    "expected ',' or ']'" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "',' oder ']' erwartet"
+          }
+        }
+      }
+    },
+    "expected ',' or '}'" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "',' oder '}' erwartet"
+          }
+        }
+      }
+    },
+    "expected ':'" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "':' erwartet"
+          }
+        }
+      }
+    },
+    "expected a base64 string" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base64-String erwartet"
+          }
+        }
+      }
+    },
+    "expected a number" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zahl erwartet"
+          }
+        }
+      }
+    },
+    "expected a quoted key" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel in Anführungszeichen erwartet"
+          }
+        }
+      }
+    },
+    "expected a string" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "String erwartet"
+          }
+        }
+      }
+    },
+    "expected a string for %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "String für %@ erwartet"
+          }
+        }
+      }
+    },
+    "expected an array" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Array erwartet"
+          }
+        }
+      }
+    },
+    "expected an array for ListValue" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Array für ListValue erwartet"
+          }
+        }
+      }
+    },
+    "expected an integer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ganzzahl erwartet"
+          }
+        }
+      }
+    },
+    "expected an object for %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objekt für %@ erwartet"
+          }
+        }
+      }
+    },
+    "expected an object for Any" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objekt für Any erwartet"
+          }
+        }
+      }
+    },
+    "expected an object for Struct" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objekt für Struct erwartet"
+          }
+        }
+      }
+    },
+    "expected an object for a map" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objekt für eine Map erwartet"
+          }
+        }
+      }
+    },
+    "expected an unsigned integer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vorzeichenlose Ganzzahl erwartet"
+          }
+        }
+      }
+    },
+    "expected true or false" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "true oder false erwartet"
+          }
+        }
+      }
+    },
+    "field is set more than once" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feld ist mehrfach gesetzt"
+          }
+        }
+      }
+    },
+    "field mask path %@ has no JSON form" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feldmaskenpfad %@ hat keine JSON-Form"
+          }
+        }
+      }
+    },
+    "field mask path %@ must be lowerCamelCase" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feldmaskenpfad %@ muss lowerCamelCase sein"
+          }
+        }
+      }
+    },
+    "google.protobuf.ListValue in this schema has no field 1" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "google.protobuf.ListValue hat in diesem Schema kein Feld 1"
+          }
+        }
+      }
+    },
+    "group fields are kept as raw bytes and cannot be edited" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gruppenfelder bleiben rohe Bytes und können nicht bearbeitet werden"
+          }
+        }
+      }
+    },
+    "invalid UTF-8 in string" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ungültiges UTF-8 im String"
+          }
+        }
+      }
+    },
+    "invalid \\u escape" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ungültige \\u-Escape-Sequenz"
+          }
+        }
+      }
+    },
+    "invalid escape" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ungültige Escape-Sequenz"
+          }
+        }
+      }
+    },
+    "invalid number" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ungültige Zahl"
+          }
+        }
+      }
+    },
+    "map key must be true or false" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Map-Schlüssel muss true oder false sein"
+          }
+        }
+      }
+    },
+    "messages are nested too deeply" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nachrichten sind zu tief verschachtelt"
+          }
+        }
+      }
+    },
+    "nesting is too deep" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verschachtelung ist zu tief"
+          }
+        }
+      }
+    },
+    "only one of oneof %@ may be set, %@ already is" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nur ein Feld von oneof %1$@ darf gesetzt sein, %2$@ ist es bereits"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "only one of oneof %1$@ may be set, %2$@ already is"
+          }
+        }
+      }
+    },
+    "protoc could not be started: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "protoc konnte nicht gestartet werden: %@"
+          }
+        }
+      }
+    },
+    "required field is missing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pflichtfeld fehlt"
+          }
+        }
+      }
+    },
+    "the data ends in the middle of a field" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "die Daten enden mitten in einem Feld"
+          }
+        }
+      }
+    },
+    "the data uses the deprecated group encoding" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "die Daten verwenden die veraltete Gruppenkodierung"
+          }
+        }
+      }
+    },
+    "the edited value could not be read back: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "der bearbeitete Wert konnte nicht zurückgelesen werden: %@"
+          }
+        }
+      }
+    },
+    "type %@ is not in the schema" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Typ %@ ist nicht im Schema"
+          }
+        }
+      }
+    },
+    "unexpected character" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unerwartetes Zeichen"
+          }
+        }
+      }
+    },
+    "unexpected content after the value" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unerwarteter Inhalt nach dem Wert"
+          }
+        }
+      }
+    },
+    "unexpected end of input" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unerwartetes Ende der Eingabe"
+          }
+        }
+      }
+    },
+    "unknown field in %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unbekanntes Feld in %@"
+          }
+        }
+      }
+    },
+    "unpaired surrogate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ungepaartes Surrogat"
+          }
+        }
+      }
+    },
+    "unterminated escape" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unvollständige Escape-Sequenz"
+          }
+        }
+      }
+    },
+    "unterminated string" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nicht abgeschlossener String"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

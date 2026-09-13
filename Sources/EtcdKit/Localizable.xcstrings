@@ -1,0 +1,225 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ requires etcd %@ or later." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ erfordert etcd %2$@ oder neuer."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ requires etcd %2$@ or later."
+          }
+        }
+      }
+    },
+    "Authentication is required or the credentials were rejected." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine Authentifizierung ist erforderlich oder die Anmeldedaten wurden abgelehnt."
+          }
+        }
+      }
+    },
+    "HTTP %lld: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HTTP %1$lld: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "HTTP %1$lld: %2$@"
+          }
+        }
+      }
+    },
+    "Listing leases" : {
+      "comment" : "Feature name, shown as: <feature> requires etcd 3.3 or later.",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Auflisten von Leases"
+          }
+        }
+      }
+    },
+    "Network failure: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netzwerkfehler: %@"
+          }
+        }
+      }
+    },
+    "The CA certificate could not be read: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das CA-Zertifikat konnte nicht gelesen werden: %@"
+          }
+        }
+      }
+    },
+    "The PKCS#12 file could not be read: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die PKCS#12-Datei konnte nicht gelesen werden: %@"
+          }
+        }
+      }
+    },
+    "The requested revision has been compacted away (compact revision %lld)." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die angeforderte Revision wurde durch Kompaktierung entfernt (Kompaktierungsrevision %lld)."
+          }
+        }
+      }
+    },
+    "The server certificate is not trusted: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dem Serverzertifikat wird nicht vertraut: %@"
+          }
+        }
+      }
+    },
+    "The server rejected the client certificate." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Server hat das Client-Zertifikat abgelehnt."
+          }
+        }
+      }
+    },
+    "The user lacks permission for this operation." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dem Benutzer fehlt die Berechtigung für diesen Vorgang."
+          }
+        }
+      }
+    },
+    "This etcd cluster was started without the JSON gateway (--enable-grpc-gateway=false), so etcetera cannot connect to it." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser etcd-Cluster wurde ohne das JSON-Gateway gestartet (--enable-grpc-gateway=false), daher kann etcetera keine Verbindung herstellen."
+          }
+        }
+      }
+    },
+    "Unexpected response from the gateway: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unerwartete Antwort vom Gateway: %@"
+          }
+        }
+      }
+    },
+    "etcd error (%@): %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "etcd-Fehler (%1$@): %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "etcd error (%1$@): %2$@"
+          }
+        }
+      }
+    },
+    "file %lld is neither a DER nor a PEM certificate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datei %lld ist weder ein DER- noch ein PEM-Zertifikat"
+          }
+        }
+      }
+    },
+    "import failed (OSStatus %lld)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import fehlgeschlagen (OSStatus %lld)"
+          }
+        }
+      }
+    },
+    "the chain does not lead to the configured CA" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "die Kette führt nicht zur konfigurierten CA"
+          }
+        }
+      }
+    },
+    "watch canceled" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch abgebrochen"
+          }
+        }
+      }
+    },
+    "watch failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "wrong passphrase" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "falsche Passphrase"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

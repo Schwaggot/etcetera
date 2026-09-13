@@ -1,0 +1,17 @@
+# proto-message: fixtures.v1.Scalars
+f_double: -2.25
+f_float: 1.5
+f_int32: -42
+f_int64: -9000000000
+f_uint32: 4000000000
+f_uint64: 18446744073709551615
+f_sint32: -7
+f_sint64: -123456789012
+f_fixed32: 305419896
+f_fixed64: 1234605616436508552
+f_sfixed32: -305419896
+f_sfixed64: -1234605616436508552
+f_bool: true
+f_string: "hello, etcd"
+f_bytes: "\000\377ab"
+f_enum: COLOR_GREEN

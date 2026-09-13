@@ -1,0 +1,4 @@
+any {
+  type_url: "type.googleapis.com/acme.Missing"
+  value: "\001\002"
+}

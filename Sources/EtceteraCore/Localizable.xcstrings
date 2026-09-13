@@ -1,0 +1,500 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ already exists." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist bereits vorhanden."
+          }
+        }
+      }
+    },
+    "%@ does not exist." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist nicht vorhanden."
+          }
+        }
+      }
+    },
+    "%@ kept changing while it was being copied. Try again." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ hat sich während des Kopierens ständig geändert. Versuche es erneut."
+          }
+        }
+      }
+    },
+    "%@ no longer exists." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist nicht mehr vorhanden."
+          }
+        }
+      }
+    },
+    "Authenticate" : {
+      "comment" : "Connection test step",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authentifizieren"
+          }
+        }
+      }
+    },
+    "CA certificate %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CA-Zertifikat %@"
+          }
+        }
+      }
+    },
+    "Client identity %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Client-Identität %@"
+          }
+        }
+      }
+    },
+    "Connect and detect the API version" : {
+      "comment" : "Connection test step",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinden und API-Version erkennen"
+          }
+        }
+      }
+    },
+    "Database %@, leader %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datenbank %1$@, Leader %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Database %1$@, leader %2$@"
+          }
+        }
+      }
+    },
+    "JSON" : {
+      "comment" : "Export format",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSON"
+          }
+        }
+      }
+    },
+    "Key" : {
+      "comment" : "Key table column title",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlüssel"
+          }
+        }
+      }
+    },
+    "Lease" : {
+      "comment" : "Key table column title",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lease"
+          }
+        }
+      }
+    },
+    "Live updates stopped: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live-Aktualisierung gestoppt: %@"
+          }
+        }
+      }
+    },
+    "Loaded" : {
+      "comment" : "Connection test result: certificates were read",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geladen"
+          }
+        }
+      }
+    },
+    "Mapping %lld has no message." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zuordnung %lld hat keine Nachricht."
+          }
+        }
+      }
+    },
+    "Name" : {
+      "comment" : "Key table column title: the name a mapping takes from the value",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "New Connection" : {
+      "comment" : "Default name of a new connection",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Verbindung"
+          }
+        }
+      }
+    },
+    "Not a valid endpoint URL: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine gültige Endpunkt-URL: %@"
+          }
+        }
+      }
+    },
+    "Not connected to a cluster." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht mit einem Cluster verbunden."
+          }
+        }
+      }
+    },
+    "Raw Bytes" : {
+      "comment" : "Export format",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rohdaten"
+          }
+        }
+      }
+    },
+    "Re-encoding this message unchanged does not reproduce the stored bytes (%lld stored, %lld re-encoded), so editing is off to protect the data." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das erneute Kodieren dieser unveränderten Nachricht ergibt nicht die gespeicherten Bytes (%1$lld gespeichert, %2$lld neu kodiert), daher ist das Bearbeiten zum Schutz der Daten ausgeschaltet."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Re-encoding this message unchanged does not reproduce the stored bytes (%1$lld stored, %2$lld re-encoded), so editing is off to protect the data."
+          }
+        }
+      }
+    },
+    "Read certificates" : {
+      "comment" : "Connection test step",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zertifikate lesen"
+          }
+        }
+      }
+    },
+    "Read cluster status" : {
+      "comment" : "Connection test step",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clusterstatus lesen"
+          }
+        }
+      }
+    },
+    "Revision" : {
+      "comment" : "Key table column title",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revision"
+          }
+        }
+      }
+    },
+    "Schema folder %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schema-Ordner %@"
+          }
+        }
+      }
+    },
+    "Signed in as %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angemeldet als %@"
+          }
+        }
+      }
+    },
+    "Size" : {
+      "comment" : "Key table column title",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Größe"
+          }
+        }
+      }
+    },
+    "Text" : {
+      "comment" : "Export format",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text"
+          }
+        }
+      }
+    },
+    "The connection changed since this value was loaded. Reopen the key to edit it." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Verbindung hat sich geändert, seit dieser Wert geladen wurde. Öffne den Schlüssel erneut, um ihn zu bearbeiten."
+          }
+        }
+      }
+    },
+    "The connection has no endpoint." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Verbindung hat keinen Endpunkt."
+          }
+        }
+      }
+    },
+    "The connection was exported by a newer version of etcetera." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Verbindung wurde von einer neueren Version von etcetera exportiert."
+          }
+        }
+      }
+    },
+    "The etcd HTTP gateway refused the response because it is larger than the gateway's limit (%@)." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das etcd-HTTP-Gateway hat die Antwort abgelehnt, weil sie das Limit des Gateways überschreitet (%@)."
+          }
+        }
+      }
+    },
+    "The file has no mappings." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Datei enthält keine Zuordnungen."
+          }
+        }
+      }
+    },
+    "The mappings were exported by a newer version of etcetera." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Zuordnungen wurden von einer neueren Version von etcetera exportiert."
+          }
+        }
+      }
+    },
+    "The message type %@ is not in the schema." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Nachrichtentyp %@ ist nicht im Schema."
+          }
+        }
+      }
+    },
+    "The saved connections could not be read, so they are left untouched." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die gesicherten Verbindungen konnten nicht gelesen werden und bleiben daher unverändert."
+          }
+        }
+      }
+    },
+    "The saved connections could not be read: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die gesicherten Verbindungen konnten nicht gelesen werden: %@"
+          }
+        }
+      }
+    },
+    "The schema did not compile:\n%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Schema ließ sich nicht kompilieren:\n%@"
+          }
+        }
+      }
+    },
+    "The schema has not been compiled." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Schema wurde noch nicht kompiliert."
+          }
+        }
+      }
+    },
+    "These are not etcetera mappings: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das sind keine etcetera-Zuordnungen: %@"
+          }
+        }
+      }
+    },
+    "They were saved by a newer version of etcetera." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sie wurden von einer neueren Version von etcetera gespeichert."
+          }
+        }
+      }
+    },
+    "This is not an etcetera connection: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dies ist keine etcetera-Verbindung: %@"
+          }
+        }
+      }
+    },
+    "etcd %@ at %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "etcd %1$@ unter %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "etcd %1$@ at %2$@"
+          }
+        }
+      }
+    },
+    "etcd, version unknown, at %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "etcd, Version unbekannt, unter %@"
+          }
+        }
+      }
+    },
+    "none" : {
+      "comment" : "Lease cell of a key without a lease",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "keine"
+          }
+        }
+      }
+    },
+    "too large" : {
+      "comment" : "Size cell of a value too large to fetch",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zu groß"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "ts": "2023-11-14T22:13:20.123Z",
+  "dur": "90.500s",
+  "mask": "user.displayName,photo",
+  "st": {"a": 1, "b": ["x", true, null]},
+  "val": "hi",
+  "list": [2.5],
+  "wDouble": 3.5,
+  "wFloat": 1.25,
+  "wInt64": "-5",
+  "wUint64": "5",
+  "wInt32": 0,
+  "wUint32": 3,
+  "wBool": true,
+  "wString": "wrapped",
+  "wBytes": "YWI=",
+  "any": {"@type": "type.googleapis.com/fixtures.v1.Nested.Inner", "name": "in any"},
+  "empty": {},
+  "anyWkt": {"@type": "type.googleapis.com/google.protobuf.Duration", "value": "3s"}
+}

@@ -1,0 +1,22 @@
+# proto-message: fixtures.v1.WellKnown
+ts { seconds: 1700000000 nanos: 123000000 }
+dur { seconds: 90 nanos: 500000000 }
+mask { paths: "user.display_name" paths: "photo" }
+st {
+  fields { key: "a" value { number_value: 1 } }
+  fields { key: "b" value { list_value { values { string_value: "x" } values { bool_value: true } values { null_value: NULL_VALUE } } } }
+}
+val { string_value: "hi" }
+list { values { number_value: 2.5 } }
+w_double { value: 3.5 }
+w_float { value: 1.25 }
+w_int64 { value: -5 }
+w_uint64 { value: 5 }
+w_int32 { }
+w_uint32 { value: 3 }
+w_bool { value: true }
+w_string { value: "wrapped" }
+w_bytes { value: "ab" }
+any { [type.googleapis.com/fixtures.v1.Nested.Inner] { name: "in any" } }
+empty { }
+any_wkt { [type.googleapis.com/google.protobuf.Duration] { seconds: 3 } }

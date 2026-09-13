@@ -1,0 +1,5 @@
+# proto-message: fixtures.v1.Optionals
+maybe_int: 0
+maybe_string: ""
+maybe_bool: false
+plain_int: 0

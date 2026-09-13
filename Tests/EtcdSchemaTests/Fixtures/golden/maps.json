@@ -1,0 +1,6 @@
+{
+  "labels": {"app": "web", "tier": ""},
+  "byId": {"-2": {}, "1": {"name": "one"}},
+  "flags": {"false": "0", "true": "-9"},
+  "colors": {"3": "COLOR_UNSPECIFIED", "18446744073709551615": "COLOR_RED"}
+}

@@ -1,0 +1,18 @@
+{
+  "fDouble": -2.25,
+  "fFloat": 1.5,
+  "fInt32": -42,
+  "fInt64": "-9000000000",
+  "fUint32": 4000000000,
+  "fUint64": "18446744073709551615",
+  "fSint32": -7,
+  "fSint64": "-123456789012",
+  "fFixed32": 305419896,
+  "fFixed64": "1234605616436508552",
+  "fSfixed32": -305419896,
+  "fSfixed64": "-1234605616436508552",
+  "fBool": true,
+  "fString": "hello, etcd",
+  "fBytes": "AP9hYg==",
+  "fEnum": "COLOR_GREEN"
+}

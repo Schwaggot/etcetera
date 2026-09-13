@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+// The newer writer's schema. Fields 2, 3, and 9 are unknown to protos/.
+package evo.v1;
+
+message Record {
+  message Sub {
+    string note = 1;
+  }
+  string name = 1;
+  int32 extra = 2;
+  Sub sub = 3;
+  int64 id = 5;
+  repeated fixed32 tail = 9;
+}

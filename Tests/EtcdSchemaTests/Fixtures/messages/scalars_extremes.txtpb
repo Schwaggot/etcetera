@@ -1,0 +1,11 @@
+# proto-message: fixtures.v1.Scalars
+f_double: 0.1
+f_float: -0.5
+f_int32: -2147483648
+f_int64: -9223372036854775808
+f_uint32: 4294967295
+f_sint32: -2147483648
+f_sint64: -9223372036854775808
+f_fixed64: 18446744073709551615
+f_sfixed64: -9223372036854775808
+f_string: "tab\tquote\"backslash\\"

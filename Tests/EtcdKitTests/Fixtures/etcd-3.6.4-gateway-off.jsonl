@@ -1,0 +1,2 @@
+{"method":"GET","path":"/version","request":"","response":"{\"etcdserver\":\"3.6.4\",\"etcdcluster\":\"3.6.0\",\"storage\":\"3.6.0\"}","status":200}
+{"method":"POST","path":"/v3/maintenance/status","request":"{}","response":"404 page not found\n","status":404}

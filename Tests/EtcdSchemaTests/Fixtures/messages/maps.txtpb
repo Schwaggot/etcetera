@@ -1,0 +1,9 @@
+# proto-message: fixtures.v1.Maps
+labels { key: "app" value: "web" }
+labels { key: "tier" value: "" }
+by_id { key: -2 value { } }
+by_id { key: 1 value { name: "one" } }
+flags { key: false value: 0 }
+flags { key: true value: -9 }
+colors { key: 3 value: COLOR_UNSPECIFIED }
+colors { key: 18446744073709551615 value: COLOR_RED }

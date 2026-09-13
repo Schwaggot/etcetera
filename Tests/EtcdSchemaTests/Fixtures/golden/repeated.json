@@ -1,0 +1,9 @@
+{
+  "packedInts": [1, -1, 300],
+  "packedDoubles": [0.5, -1.25],
+  "packedZigzag": ["-1", "1", "-300"],
+  "unpackedInts": [5, 6, 7],
+  "names": ["a", "", "c"],
+  "colors": ["COLOR_RED", "COLOR_UNSPECIFIED", "COLOR_GREEN"],
+  "blobs": ["AQ==", ""]
+}

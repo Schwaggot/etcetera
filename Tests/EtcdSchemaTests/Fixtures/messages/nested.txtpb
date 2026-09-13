@@ -1,0 +1,6 @@
+# proto-message: fixtures.v1.Nested
+title: "root"
+inner { name: "a" child { name: "b" child { name: "c" } } }
+items { name: "x" }
+items { }
+items { name: "z" }

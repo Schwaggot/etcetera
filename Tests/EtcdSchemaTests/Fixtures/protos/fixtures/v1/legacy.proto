@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package fixtures.v1;
+
+message Legacy {
+  optional int32 a = 1 [default = 7];
+  repeated int32 b = 2;
+  required string c = 3;
+}
