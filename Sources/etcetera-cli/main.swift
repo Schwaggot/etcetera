@@ -233,7 +233,7 @@ struct VersionOutput: Encodable {
 }
 
 /// Set from CHANGELOG.md by Tools/version.sh --apply; do not edit by hand.
-let cliVersion = "1.0.0"
+let cliVersion = "1.0.1"
 
 let usage = """
     usage: etcetera-cli <command> [arguments] [flags]

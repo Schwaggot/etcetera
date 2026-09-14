@@ -19,6 +19,17 @@ struct HistoryInspector: View {
     @State private var diff: [DiffLine]?
 
     var body: some View {
+        // Scrolls in a short window instead of raising its minimum height. Otherwise fills the column.
+        GeometryReader { proxy in
+            ScrollView {
+                content
+                    .frame(minHeight: proxy.size.height, alignment: .top)
+            }
+            .scrollBounceBehavior(.basedOnSize)
+        }
+    }
+
+    private var content: some View {
         VStack(alignment: .leading, spacing: 10) {
             if let kv = model.loaded {
                 metadata(kv)

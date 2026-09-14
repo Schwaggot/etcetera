@@ -439,7 +439,7 @@ A three-pane `NavigationSplitView`.
   order, and writes anything else as a JSON string (hex for binary). Text is
   what Copy Value gives; raw is the stored bytes. Values too large for the
   gateway are left out and counted after saving.
-- **Detail.** A tab bar over the value editor and its inspector.
+- **Detail.** A tab bar over the value editor, with the inspector beside both.
 
 **One connection at a time.** The application connects to a single endpoint.
 Choosing a different connection tears down the current client, closes any

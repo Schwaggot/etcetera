@@ -1,3 +1,4 @@
+import AppKit
 import EtceteraCore
 import Foundation
 import SwiftUI
@@ -8,23 +9,76 @@ struct ContentView: View {
     @State private var workspace = Workspace()
     @State private var isCreatingKey = false
     @State private var showsLeases = false
+    @AppStorage("editor.showsInspector") private var showsInspector = false
+    @AppStorage("editor.historyWidth") private var historyWidth: Double = 320
+
+    private static let sidebarMinWidth: CGFloat = 220
+    private static let tableMinWidth: CGFloat = 300
+    /// The header with all four formats, and the footer untruncated.
+    private static let editorMinWidth: CGFloat = 460
+    private static let inspectorMinWidth: CGFloat = 260
+    private static let dividerWidth: CGFloat = 1
+
+    /// The value column: the editor, and the history beside it when shown.
+    private static func detailMinWidth(inspector: Bool) -> CGFloat {
+        editorMinWidth + (inspector ? dividerWidth + inspectorMinWidth : 0)
+    }
+
+    /// The sidebar overlays the table, so only the table has a divider.
+    private static func minWidth(inspector: Bool) -> CGFloat {
+        sidebarMinWidth + tableMinWidth + dividerWidth + detailMinWidth(inspector: inspector)
+    }
+
+    /// Only beside a tab; the setting survives closing the last one.
+    private var isInspectorShown: Bool { showsInspector && workspace.tabs.selected != nil }
+
+    /// The editor keeps its minimum in a value column this wide.
+    private func historyWidthRange(in columnWidth: CGFloat) -> ClosedRange<CGFloat> {
+        Self.inspectorMinWidth...max(Self.inspectorMinWidth, columnWidth - Self.editorMinWidth - Self.dividerWidth)
+    }
 
     var body: some View {
         @Bindable var workspace = workspace
         NavigationSplitView {
             SidebarView(workspace: workspace, selection: $workspace.selectedSource)
-                .navigationSplitViewColumnWidth(min: 220, ideal: 280)
+                .navigationSplitViewColumnWidth(min: Self.sidebarMinWidth, ideal: 280)
         } content: {
             KeyTableView(
                 connection: workspace.connection, source: workspace.selectedSource,
                 selectedKey: $workspace.selectedKey,
                 onNamed: { target, new in workspace.keyNamed(target, to: new) }
             )
-            .navigationSplitViewColumnWidth(min: 300, ideal: 400)
+            .navigationSplitViewColumnWidth(min: Self.tableMinWidth, ideal: 400)
         } detail: {
-            ValueDetailView(workspace: workspace)
+            // Not `.inspector`, whose column overlaps the content's safe area: a minimum width here grows
+            // with the inspector, and dragging its divider loops on constraints until AppKit aborts. Not
+            // `HSplitView` either, which keeps the history's width after the history closes.
+            GeometryReader { proxy in
+                HStack(spacing: 0) {
+                    ValueDetailView(workspace: workspace)
+                        .frame(maxWidth: .infinity)
+                    if isInspectorShown, let tab = workspace.tabs.selected {
+                        let range = historyWidthRange(in: proxy.size.width)
+                        HistoryResizeHandle(width: $historyWidth, range: range)
+                        HistoryInspector(connection: workspace.connection, model: tab.value)
+                            .id(tab.key)
+                            .frame(width: min(max(CGFloat(historyWidth), range.lowerBound), range.upperBound))
+                    }
+                }
+            }
+            // Fixed, so resizing the history never moves the split view's minimums.
+            .frame(minWidth: Self.detailMinWidth(inspector: isInspectorShown), maxWidth: .infinity)
         }
-        .frame(minWidth: 900, minHeight: 500)
+        // Every column fits at its minimum, so none collapses or cramps.
+        .frame(minWidth: Self.minWidth(inspector: isInspectorShown), minHeight: 500)
+        .onChange(of: isInspectorShown) { _, shown in
+            // SwiftUI raises the minimum but leaves a narrower window as it is, which clips
+            // the outer columns. A sheet can be key, such as New Key opening the first tab.
+            guard shown, let key = NSApp.keyWindow else { return }
+            let window = key.sheetParent ?? key
+            // Resizing inside a view update is not allowed.
+            Task { window.widenContent(to: Self.minWidth(inspector: true)) }
+        }
         .focusedSceneValue(\.workspace, workspace)
         .task { workspace.connectOnLaunchIfWanted() }
         .onChange(of: workspace.selectedKey) { _, key in
@@ -114,6 +168,49 @@ struct ContentView: View {
         case .prefixScan(let prefix): prefix
         case .allKeys, .search, nil: ""
         }
+    }
+}
+
+/// The divider before the history; dragging it resizes the history.
+private struct HistoryResizeHandle: View {
+    @Binding var width: Double
+    var range: ClosedRange<CGFloat>
+    @State private var startWidth: CGFloat?
+
+    var body: some View {
+        Divider()
+            .overlay {
+                Color.clear
+                    .frame(width: 8)
+                    .contentShape(Rectangle())
+                    .pointerStyle(.columnResize)
+                    .gesture(
+                        // Global, because the handle moves with the drag.
+                        DragGesture(minimumDistance: 0, coordinateSpace: .global)
+                            .onChanged { drag in
+                                let start = startWidth ?? min(max(CGFloat(width), range.lowerBound), range.upperBound)
+                                startWidth = start
+                                width = Double(min(max(start - drag.translation.width, range.lowerBound), range.upperBound))
+                            }
+                            .onEnded { _ in startWidth = nil })
+            }
+            // Above the history, which would take the half of the grip that overlaps it.
+            .zIndex(1)
+    }
+}
+
+private extension NSWindow {
+    /// Widens the window to `width` points of content, staying on its screen.
+    func widenContent(to width: CGFloat) {
+        let current = contentRect(forFrameRect: frame)
+        guard current.width < width else { return }
+        var target = frameRect(
+            forContentRect: NSRect(origin: current.origin, size: NSSize(width: width, height: current.height)))
+        if let visible = screen?.visibleFrame {
+            // Grows to the right, moving left where the screen ends.
+            target.origin.x = max(visible.minX, min(target.minX, visible.maxX - target.width))
+        }
+        setFrame(target, display: true, animate: true)
     }
 }
 

@@ -13,6 +13,24 @@ only ever goes up.
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-09-14
+
+### Changed
+
+- The history inspector sits beside the tabs as well as the value editor and
+  keeps its width across launches.
+- The window can no longer be made narrower than its columns, so the sidebar
+  stays visible and the value editor keeps room for its controls. It needs
+  more width while the history inspector is open, and opening it widens a
+  narrower window.
+- The history inspector scrolls when the window is too short for it.
+- The value editor's footer truncates in a narrow column instead of wrapping.
+
+### Fixed
+
+- Dragging the divider beside the history inspector no longer crashes the
+  app.
+
 ## [1.0.0] - 2026-09-13
 
 First release. Requires macOS 26 and etcd 3.2 or later with its JSON gateway,

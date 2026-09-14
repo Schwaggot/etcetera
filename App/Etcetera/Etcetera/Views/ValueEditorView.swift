@@ -47,10 +47,6 @@ struct ValueEditorView: View {
             .sheet(isPresented: conflictPresented) {
                 ConflictSheet(model: model, connection: connection)
             }
-            .inspector(isPresented: $showsInspector) {
-                HistoryInspector(connection: connection, model: model)
-                    .inspectorColumnWidth(min: 260, ideal: 320)
-            }
     }
 
     private var conflictPresented: Binding<Bool> {
@@ -263,6 +259,8 @@ struct ValueEditorView: View {
             sizeItem(kv.value.count)
         }
         .font(.caption)
+        // Truncates in a narrow column instead of wrapping mid-number.
+        .lineLimit(1)
         .padding(8)
     }
 
